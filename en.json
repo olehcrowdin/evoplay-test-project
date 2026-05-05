@@ -1,0 +1,22 @@
+{
+    "version": "28",
+    "realityCheck.totalPlayingText": "You've been playing for <span class=\"total-time\"><span class=\"total-time-h\">0</span>hr and <span class=\"total-time-m\">30</span>m</span>.",
+    "realityCheck.totalWinText": "During this period you have won: <span class=\"total-win\">${winTotal}</span>",
+    "realityCheck.totalLooseText": "During this period you have lost: <span class=\"total-win\">${winTotal}</span>",
+    "realityCheck.back": "Quit game",
+    "realityCheck.continue": "Continue",
+
+    "giftSpins.congratulation": "Congratulations!",
+    "giftSpins.youHave": "Gift Spins <span class=\"blue-txt\">${spinsLeft} of ${spinsTotal}</span> Value: <span>${bet}</span> ${currency} (per spin)",
+    "giftSpins.giftSpinsWithValueOf": "Your total win is <span class=\"total-win\">0</span>.",
+    "giftSpins.playNow": "Play now",
+    "giftSpins.playLater": "Play later",
+    "giftSpins.decline": "Decline",
+    "giftSpins.ok": "OK",
+    "giftSpins.backToLobby": "Back to Lobby",
+
+    "giftSpins.continue": "Gift Spins <span class=\"blue-txt\">${spinsLeft} of ${spinsTotal}</span> Value: <span>${bet}</span> ${currency} (per spin)",
+    "giftSpins.youWonPlayed": "You have played ${played} of ${total} Gift Spins.",
+    "giftSpins.youWonTotalWin": " Total win: ${wincount} ${currency}",
+    "giftSpins.expired": "Your Gift Spins have expired. Please reopen the game."
+}
