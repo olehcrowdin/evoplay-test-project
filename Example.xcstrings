@@ -4,16 +4,22 @@
         "welcomeMessage" : {
             "comment" : "Regular string",
             "localizations" : {
+                "de" : {
+                    "stringUnit" : {
+                        "state" : "translated",
+                        "value" : "Willkommen in der App!"
+                    }
+                },
                 "en" : {
                     "stringUnit" : {
                         "state" : "new",
                         "value" : "Welcome to the app!"
                     }
                 },
-                "uk" : {
+                "es" : {
                     "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Ласкаво просимо до застосунку!"
+                        "value" : "¡Bienvenido a la app!"
                     }
                 }
             }
@@ -21,10 +27,22 @@
         "welcomeMessageDI" : {
             "comment" : "Device-specific string",
             "localizations" : {
+                "de" : {
+                    "stringUnit" : {
+                        "state" : "translated",
+                        "value" : "Willkommen in der iPhone-App!"
+                    }
+                },
                 "en" : {
                     "stringUnit" : {
                         "state" : "new",
                         "value" : "Welcome to the iPhone app!"
+                    }
+                },
+                "es" : {
+                    "stringUnit" : {
+                        "state" : "translated",
+                        "value" : "¡Bienvenido a la app de iPhone!"
                     }
                 }
             }
@@ -32,6 +50,24 @@
         "daysRemaining" : {
             "comment" : "Plural string",
             "localizations" : {
+                "de" : {
+                    "variations" : {
+                        "plural" : {
+                            "one" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "Noch 1 Tag übrig"
+                                }
+                            },
+                            "other" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "Noch %d Tage übrig"
+                                }
+                            }
+                        }
+                    }
+                },
                 "en" : {
                     "variations" : {
                         "plural" : {
@@ -49,12 +85,54 @@
                             }
                         }
                     }
+                },
+                "es" : {
+                    "variations" : {
+                        "plural" : {
+                            "one" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "Queda 1 día"
+                                }
+                            },
+                            "other" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "Quedan %d días"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         },
         "notifications" : {
             "comment" : "Plural string with zero plural form",
             "localizations" : {
+                "de" : {
+                    "variations" : {
+                        "plural" : {
+                            "one" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "1 Benachrichtigung"
+                                }
+                            },
+                            "other" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "%d Benachrichtigungen"
+                                }
+                            },
+                            "zero" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "Keine Benachrichtigungen"
+                                }
+                            }
+                        }
+                    }
+                },
                 "en" : {
                     "variations" : {
                         "plural" : {
@@ -78,12 +156,60 @@
                             }
                         }
                     }
+                },
+                "es" : {
+                    "variations" : {
+                        "plural" : {
+                            "one" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "1 notificación"
+                                }
+                            },
+                            "other" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "%d notificaciones"
+                                }
+                            },
+                            "zero" : {
+                                "stringUnit" : {
+                                    "state" : "translated",
+                                    "value" : "Ninguna notificación"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         },
         "itemsInCart" : {
             "comment" : "Device-specific plural string",
             "localizations" : {
+                "de" : {
+                    "variations" : {
+                        "device" : {
+                            "ipad" : {
+                                "variations" : {
+                                    "plural" : {
+                                        "one" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "1 Artikel in deinem Warenkorb"
+                                            }
+                                        },
+                                        "other" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "%d Artikel in deinem Warenkorb"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
                 "en" : {
                     "variations" : {
                         "device" : {
@@ -107,12 +233,66 @@
                             }
                         }
                     }
+                },
+                "es" : {
+                    "variations" : {
+                        "device" : {
+                            "ipad" : {
+                                "variations" : {
+                                    "plural" : {
+                                        "one" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "1 artículo en tu carrito"
+                                            }
+                                        },
+                                        "other" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "%d artículos en tu carrito"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         },
         "unreadMessages" : {
             "comment" : "Device-specific plural string with zero plural form",
             "localizations" : {
+                "de" : {
+                    "variations" : {
+                        "device" : {
+                            "mac" : {
+                                "variations" : {
+                                    "plural" : {
+                                        "one" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "1 ungelesene Nachricht auf deinem Mac"
+                                            }
+                                        },
+                                        "other" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "%d ungelesene Nachrichten auf deinem Mac"
+                                            }
+                                        },
+                                        "zero" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "Keine ungelesenen Nachrichten auf deinem Mac"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
                 "en" : {
                     "variations" : {
                         "device" : {
@@ -142,12 +322,75 @@
                             }
                         }
                     }
+                },
+                "es" : {
+                    "variations" : {
+                        "device" : {
+                            "mac" : {
+                                "variations" : {
+                                    "plural" : {
+                                        "one" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "1 mensaje sin leer en tu Mac"
+                                            }
+                                        },
+                                        "other" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "%d mensajes sin leer en tu Mac"
+                                            }
+                                        },
+                                        "zero" : {
+                                            "stringUnit" : {
+                                                "state" : "translated",
+                                                "value" : "No hay mensajes sin leer en tu Mac"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         },
         "welcomeUser" : {
             "comment" : "String with variable and substitution strings",
             "localizations" : {
+                "de" : {
+                    "stringUnit" : {
+                        "state" : "translated",
+                        "value" : "Willkommen, %#@USERNAME@!"
+                    },
+                    "substitutions" : {
+                        "USERNAME" : {
+                            "formatSpecifier" : "USERNAME",
+                            "variations" : {
+                                "plural" : {
+                                    "one" : {
+                                        "stringUnit" : {
+                                            "state" : "translated",
+                                            "value" : "nutzer"
+                                        }
+                                    },
+                                    "other" : {
+                                        "stringUnit" : {
+                                            "state" : "translated",
+                                            "value" : "anwender"
+                                        }
+                                    },
+                                    "zero" : {
+                                        "stringUnit" : {
+                                            "state" : "translated",
+                                            "value" : "keine Benutzer"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
                 "en" : {
                     "stringUnit" : {
                         "state" : "new",
@@ -174,6 +417,39 @@
                                         "stringUnit" : {
                                             "state" : "new",
                                             "value" : "no users"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "es" : {
+                    "stringUnit" : {
+                        "state" : "translated",
+                        "value" : "¡Bienvenido, %#@USERNAME@!"
+                    },
+                    "substitutions" : {
+                        "USERNAME" : {
+                            "formatSpecifier" : "USERNAME",
+                            "variations" : {
+                                "plural" : {
+                                    "one" : {
+                                        "stringUnit" : {
+                                            "state" : "translated",
+                                            "value" : "usuario"
+                                        }
+                                    },
+                                    "other" : {
+                                        "stringUnit" : {
+                                            "state" : "translated",
+                                            "value" : "usuario"
+                                        }
+                                    },
+                                    "zero" : {
+                                        "stringUnit" : {
+                                            "state" : "translated",
+                                            "value" : "ningún usuario"
                                         }
                                     }
                                 }
